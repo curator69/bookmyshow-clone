@@ -5,7 +5,7 @@
   "main": "./src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-server .",
+    "start": "react-scripts start",
     "build": "webpack ."
   },
   "keywords": [],
@@ -19,6 +19,7 @@
     "@babel/runtime": "^7.18.9",
     "babel-eslint": "^10.1.0",
     "babel-loader": "^8.2.5",
+    "css-loader": "^6.7.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "webpack": "^5.74.0",
@@ -26,6 +27,19 @@
     "webpack-dev-server": "^4.10.1"
   },
   "dependencies": {
-    "react-router-dom": "^6.4.1"
+    "react-router-dom": "^6.4.1",
+    "react-scripts": "^5.0.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
