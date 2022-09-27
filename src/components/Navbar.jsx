@@ -10,7 +10,7 @@ const Navbar = () => {
     <>
       <div className="navigation-primary">
         <div className="nav-primary--left">
-          <img className="main-logo" src={logo} alt="logo" />
+          <img className="main-logo" src={logo} alt="" />
           <div>
             <img src={searchIcon} alt="searchIcon" />
             <input
