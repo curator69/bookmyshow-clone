@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
 *,
 *::after,
 *::before {
@@ -27,8 +29,9 @@ html {
 
 body {
   box-sizing: border-box;
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
+  font-family: "Roboto", sans-serif;
 }
 
 ::-webkit-scrollbar {
