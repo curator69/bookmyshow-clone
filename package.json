@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "react-scripts:start": "react-scripts start",
+    "watch:sass": "node-sass sass/main.scss css/style.css -w",
     "compile:sass": "node-sass src/sass/main.scss src/index.css -w",
     "start": "webpack-dev-server .",
     "build": "webpack ."
