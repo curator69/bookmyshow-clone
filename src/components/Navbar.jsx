@@ -8,11 +8,11 @@ import hamburgerIcon from "../assets/icons/reorder-three-outline.svg";
 const Navbar = () => {
   return (
     <>
-      <div className="navigation-primary">
+      <div className="nav-primary">
         <div className="nav-primary--left">
-          <img className="main-logo" src={logo} alt="" />
+          <img className="logo" src={logo} alt="logo" />
           <div>
-            <img src={searchIcon} alt="searchIcon" />
+            <img className="searchIcon" src={searchIcon} alt="searchIcon" />
             <input
               type="text"
               placeholder="Search for Movies, Plays, Sports and Activities"
@@ -22,7 +22,11 @@ const Navbar = () => {
         <div className="nav-primary--right">
           <div>
             <p>Mumbai</p>
-            <img src={dropDownIcon} alt="dropDownIcon" />
+            <img
+              className="dropDownIcon"
+              src={dropDownIcon}
+              alt="dropDownIcon"
+            />
           </div>
           <a href="#">Sign In</a>
           <img src={hamburgerIcon} alt="hamburgerIcon" />
