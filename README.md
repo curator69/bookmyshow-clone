@@ -1,3 +1,3 @@
 bookmyshow-clone coming soon!
 
-using SASS and Webpack
+using SASS
