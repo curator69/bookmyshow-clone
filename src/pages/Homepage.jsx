@@ -2,11 +2,7 @@ import React from "react";
 import { Slider } from "../components";
 
 const Homepage = () => {
-  return (
-    <>
-      <Slider />
-    </>
-  );
+  return <>{/* <Slider /> */}</>;
 };
 
 export default Homepage;
